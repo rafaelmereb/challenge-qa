@@ -63,7 +63,7 @@ request(options, function (error, response) {
  
  ## Documentação da API
  
- ## **/heroes** [POST]
+**/heroes** [POST]
  
 ```java
 // Input
@@ -86,4 +86,19 @@ request(options, function (error, response) {
     }
 }
  ```
+**/heroes/battle** [POST]
+ 
+```java
+// Input
+  {
+    "hero_id":[HERO_ID],
+    "machine_hero_id":[HERO_ID]
+}
+// Output
+{
+    "winner": "Shazam",
+    "loser": "xxxx"
+}
+ ```
+ 
 Boa sorte!
