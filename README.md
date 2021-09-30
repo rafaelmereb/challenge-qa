@@ -60,4 +60,30 @@ request(options, function (error, response) {
   console.log(response.body);
 });
  ```
+ 
+ ## Documentação da API
+ 
+ ## **/heroes** [POST]
+ 
+```java
+// Input
+  {
+   "name":"Raiden",
+   "skills": {
+            "power": 66,
+            "velocity": 15,
+            "combate": 99
+        }
+}
+// Output
+{
+    "id": "3b6be017-9633-4832-9b3a-66930a99ca1c",
+    "name": "xxxx",
+    "skills": {
+        "power": 66,
+        "velocity": 15,
+        "combate": 99
+    }
+}
+ ```
 Boa sorte!
