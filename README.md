@@ -3,10 +3,6 @@
 
 ### Descrição
 
-## Layout
-
-
-
 ## Requisitos
 
 ## O que iremos avaliar
