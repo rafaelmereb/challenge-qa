@@ -7,7 +7,7 @@ A equipe de desenvolvimento está criando um jogo, aonde a equipe de QA será re
 ### O Jogo
 Basicamente é um jogo aonde você pode criar um herói para batalhar com os heróis que já existem, todos os personagens tem no mínimo 3 habilidades que são elas: Poder, Velocidade e Combate.
 Cada habilidade tem o valor máximo de 200 e o mínimo 0 (zero), para um herói ser válido ele tem que ter todas as habilidades necessárias e não ter um nome comum de outro herói para realizar uma batalha.
-Obs: Sabemos que há uma falha catastrófica se você encontrar ganha pontos extras.
+ - Obs: Sabemos que há uma falha catastrófica se você encontrar ganha pontos extras.
 
 ## Requisitos
  - Você como analista de qualidade deve criar testes automaizados utilizando o Postman
