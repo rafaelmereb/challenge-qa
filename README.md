@@ -5,8 +5,9 @@
 A equipe de desenvolvimento está criando um jogo, aonde a equipe de QA será responsável por avaliar a qualidade da entrega, então é importante realizar alguns testes e você será responsável por todos eles :)
 
 ### O Jogo
-Basicamente é um jogo aonde você pode criar um herói para batalhar com os heróis já existem, todos os personagens tem no mínimo 3 habilidades que são: Poder, Velocidade e Combate.
+Basicamente é um jogo aonde você pode criar um herói para batalhar com os heróis que já existem, todos os personagens tem no mínimo 3 habilidades que são elas: Poder, Velocidade e Combate.
 Cada habilidade tem o valor máximo de 200 e o mínimo 0 (zero), para um herói ser válido ele tem que ter todas as habilidades necessárias e não ter um nome comum de outro herói para realizar uma batalha.
+Obs: Sabemos que há uma falha catastrófica se você encontrar ganha pontos extras.
 
 ## Requisitos
  - Você como analista de qualidade deve criar testes automaizados utilizando o Postman
@@ -14,9 +15,12 @@ Cada habilidade tem o valor máximo de 200 e o mínimo 0 (zero), para um herói 
  - Criando um herói, você deve descobrir um outro herói que você pode vencer.
  - Criando um herói, você deve descobrir um outro herói que você pode perder.
  - Criando um herói, você deve descobrir um outro herói que possui a mesma força.
+ - Achar outros cenários de testes também ganham pontos extras.
 
 ## O que iremos avaliar
-
+ - Como os testes estão estruturados, nos acreditamos que a organização é muito importante :)
+ - Queremos entender a sua abordagem de testes, então é importante você explicar como achou outros cenários de testes.
+ - O testes tem uma manutenibilidade fácil, o nome das variáveis fazem sentido?
 
 ## API
 
