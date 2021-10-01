@@ -18,6 +18,8 @@ Cada habilidade tem o valor máximo de 200 e o mínimo 0 (zero), para um herói 
  - Achar outros cenários de testes também ganham pontos extras.
 
 ## O que iremos avaliar
+ - Estratégia de testes adotada.
+ - Cobertura dos requisitos.
  - Como os testes estão estruturados, nos acreditamos que a organização é muito importante :)
  - Queremos entender a sua abordagem de testes, então é importante você explicar como achou outros cenários de testes.
  - O testes tem uma manutenibilidade fácil, o nome das variáveis fazem sentido?
