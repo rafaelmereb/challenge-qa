@@ -2,7 +2,7 @@
 # Challenge QA Automatization
 
 ### Descrição
-A equipe de desenvolvimento está criando um jogo, aonde a equipe de QA será responsável por avaliar a qualidade da entrega, então é importante realizar alguns testes e você será responsável por todos eles :)
+A equipe de desenvolvimento está criando um jogo, aonde a equipe de QA será responsável por avaliar a qualidade da entrega, então é importante realizar alguns testes e você será responsável pela criação e execução dos cenários de testes automatizados.
 
 ### O Jogo
 Basicamente é um jogo aonde você pode criar um herói para batalhar com os heróis que já existem, todos os personagens tem no mínimo 3 habilidades que são elas: Poder, Velocidade e Combate.
@@ -10,18 +10,19 @@ Cada habilidade tem o valor máximo de 200 e o mínimo 0 (zero), para um herói 
  - Obs: Sabemos que há uma falha catastrófica se você encontrar ganha pontos extras.
 
 ## Requisitos
- - Você como analista de qualidade deve criar testes automaizados utilizando o Postman
- - Utilizando as APIs abaixo realize os seguintes testes
+ - Você como engenheiro de automação deve criar testes automaizados utilizando o Postman.
+ - Utilizando as APIs abaixo realize os seguintes testes.
+ - O Usuário deve estar devidamente autenticado para utilizar o sistema.
  - Criando um herói, você deve descobrir um outro herói que você pode vencer.
  - Criando um herói, você deve descobrir um outro herói que você pode perder.
  - Criando um herói, você deve descobrir um outro herói que possui a mesma força.
  - Achar outros cenários de testes também ganham pontos extras.
 
-## O que iremos avaliar
+## O que vamos avaliar
  - Estratégia de testes adotada.
  - Cobertura dos requisitos.
  - Como os testes estão estruturados, nos acreditamos que a organização é muito importante :)
- - Queremos entender a sua abordagem de testes, então é importante você explicar como achou outros cenários de testes.
+ - Queremos entender a sua abordagem de testes. Então é importante você explicar através de comentários como encontrou e desenvolveu os cenários de testes.
  - O testes tem uma manutenibilidade fácil, o nome das variáveis fazem sentido?
 
 ## API
