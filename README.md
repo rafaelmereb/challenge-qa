@@ -24,6 +24,7 @@ Cada habilidade tem o valor máximo de 200 e o mínimo 0 (zero), para um herói 
  - Como os testes estão estruturados, nos acreditamos que a organização é muito importante :)
  - Queremos entender a sua abordagem de testes. Então é importante você explicar através de comentários como encontrou e desenvolveu os cenários de testes.
  - O testes tem uma manutenibilidade fácil, o nome das variáveis fazem sentido?
+ - Ao finalizar o teste, você deve encaminhar ao avaliador o projeto postman contendo os scripts e a descrição dos cenários cobertos. 
 
 ## API
 
