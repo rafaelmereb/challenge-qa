@@ -1,5 +1,5 @@
 
-# QA Automatization Challenge
+# QA Automation Challenge
 
 ### Descrição
 A equipe de desenvolvimento está criando um jogo, aonde a equipe de QA será responsável por avaliar a qualidade da entrega, então é importante realizar alguns testes e você será responsável pela criação e execução dos cenários de testes automatizados.
@@ -20,8 +20,8 @@ Cada habilidade tem o valor máximo de 200 e o mínimo 0 (zero), para um herói 
 
 ## O que vamos avaliar
  - Estratégia de testes adotada.
- - Cobertura dos requisitos.
- - Como os testes estão estruturados, nos acreditamos que a organização é muito importante :)
+ - Cobertura das funcionalidades do Jogo.
+ - Como os testes estão estruturados, nós acreditamos que a organização é muito importante :)
  - Queremos entender a sua abordagem de testes. Então é importante você explicar através de comentários como encontrou e desenvolveu os cenários de testes.
  - O testes tem uma manutenibilidade fácil, o nome das variáveis fazem sentido?
  - Ao finalizar o teste, você deve encaminhar ao avaliador o projeto postman contendo os scripts e a descrição dos cenários cobertos. 
