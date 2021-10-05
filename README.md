@@ -1,5 +1,5 @@
 
-# Challenge QA Automatization
+# QA Automatization Challenge
 
 ### Descrição
 A equipe de desenvolvimento está criando um jogo, aonde a equipe de QA será responsável por avaliar a qualidade da entrega, então é importante realizar alguns testes e você será responsável pela criação e execução dos cenários de testes automatizados.
