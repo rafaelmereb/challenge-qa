@@ -10,7 +10,7 @@ Cada habilidade tem o valor máximo de 200 e o mínimo 0 (zero), para um herói 
  - Obs: Sabemos que há uma falha catastrófica se você encontrar ganha pontos extras.
 
 ## Requisitos
- - Você como engenheiro de automação deve criar testes automaizados utilizando o Postman.
+ - Você como engenheiro de automação deve criar testes automatizados utilizando o Postman.
  - Utilizando as APIs abaixo realize os seguintes testes.
  - O Usuário deve estar devidamente autenticado para utilizar o sistema.
  - Criando um herói, você deve descobrir um outro herói que você pode vencer.
