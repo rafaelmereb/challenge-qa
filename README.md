@@ -1,44 +1,44 @@
 
 # QA Automation Challenge
 
-### Descrição
-A equipe de desenvolvimento está criando um jogo, aonde a equipe de QA será responsável por avaliar a qualidade da entrega, então é importante realizar alguns testes e você será responsável pela criação e execução dos cenários de testes automatizados.
+### Description
+The development team is creating a game, where the QA team is responsible for the quality of the delivery, so it is important to do some testing and you will be responsible for creating and running the automated test scenarios.
 
-### O Jogo
-Basicamente é um jogo aonde você pode criar um herói para batalhar com os heróis que já existem, todos os personagens tem no mínimo 3 habilidades que são elas: Poder, Velocidade e Combate.
-Cada habilidade tem o valor máximo de 200 e o mínimo 0 (zero), para um herói ser válido ele tem que ter todas as habilidades necessárias e não ter um nome comum de outro herói para realizar uma batalha.
- - Obs: Sabemos que há uma falha catastrófica se você encontrar ganha pontos extras.
+### The Game
+Basically it's a game where you can create a hero to battle with the heroes that already exist, all characters have at least 3 skills which are: Power, Speed and Combat.
+Each skill has a maximum value of 200 and a minimum value of 0 (zero), for a hero to be valid it must have all the necessary skills and not have a common name of another hero to carry out a battle.
+ - Note: We know that there is a catastrophic failure if you find it earns extra points.
 
-## Requisitos
- - Você como engenheiro de automação deve criar testes automatizados utilizando o Postman.
- - Utilizando as APIs abaixo realize os seguintes testes.
- - O Usuário deve estar devidamente autenticado para utilizar o sistema.
- - Criando um herói, você deve descobrir um outro herói que você pode vencer.
- - Criando um herói, você deve descobrir um outro herói que você pode perder.
- - Criando um herói, você deve descobrir um outro herói que possui a mesma força.
- - Achar outros cenários de testes também ganham pontos extras.
+## Requirements
+ - You as an automation engineer must create automated tests using Postman.
+ - Using the APIs below, perform the following tests.
+ - The User must be properly authenticated to use the system.
+ - By creating a hero, you must discover another hero that you can beat.
+ - By creating a hero, you must discover another hero that you might lose.
+ - Creating a hero, you must discover another hero who possesses the same strength.
+ - Finding other test scenarios also earns extra points.
 
-## O que vamos avaliar
- - Estratégia de testes adotada.
- - Cobertura das funcionalidades do Jogo.
- - Como os testes estão estruturados, nós acreditamos que a organização é muito importante :)
- - Queremos entender a sua abordagem de testes. Então é importante você explicar através de comentários como encontrou e desenvolveu os cenários de testes.
- - O testes tem uma manutenibilidade fácil, o nome das variáveis fazem sentido?
- - Ao finalizar o teste, você deve encaminhar ao avaliador o projeto postman contendo os scripts e a descrição dos cenários cobertos. 
+## what are we going to evaluate
+ - Testing strategy.
+ - Coverage of Game features.
+ - As the tests are structured, we believe that organization is very important :)
+ - We want to understand your testing approach. So it's important that you explain through comments how you found and developed the test scenarios.
+ - The tests are easy to maintain, do the names of the variables make sense?
+ - At the end of the test, you must send the postman project to the evaluator containing the scripts and the description of the covered scenarios.
 
-## API
+## API's
 
 ```java
   [URL]: https://challenge-fielo-qa.herokuapp.com
   [APP_ID]: MPD4XHcIIGfMA0GCSqGSIbi232QKBgQCh7uxHjWd1CyRgPKiDb3DQEBAQUAA4GNADCB
 ```
 
-- **/auth** [POST] - Endpoint responsável pela autorização da aplicação, é necessário adicionar a chave `x-app-id` com  `[APP_ID]` 
-- **/heroes** [GET] - Endpoint responsável por retornar todos os heróis.
-- **/heroes** [POST] - Endpoint responsável por criar um novo herói.
-- **/heroes/battle** [POST]- Endpoint responsável fazer a batalha entre heróis.
+- **/auth** [POST] - Endpoint responsible for the authorization of the application, it is necessary to add the key `x-app-id` with  `[APP_ID]` 
+- **/heroes** [GET] - Endpoint responsible for returning all heroes.
+- **/heroes** [POST] - Endpoint responsible for creating a new hero.
+- **/heroes/battle** [POST]- Endpoint for battles between heroes.
 
-## Exemplo da autorização
+## Authentication example
 ```java
 var request = require('request');
 var options = {
@@ -54,7 +54,7 @@ request(options, function (error, response) {
 });
  ```
  
- ## Resultado da autorização
+ ## Authentication Result
  
 ```java
 {
@@ -63,7 +63,7 @@ request(options, function (error, response) {
 }
 ```
 
-## Exemplo do consumo dos dados
+## Example of data request
 ```java
 var request = require('request');
 var options = {
@@ -79,7 +79,7 @@ request(options, function (error, response) {
 });
  ```
  
- ## Documentação da API
+ ## API Documentation
  
 **/heroes** [POST]
  
@@ -119,4 +119,4 @@ request(options, function (error, response) {
 }
  ```
  
-Boa sorte!
+Good Luck!
