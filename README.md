@@ -21,7 +21,7 @@ Each skill has a maximum value of 200 and a minimum value of 0 (zero), for a her
 ## what are we going to evaluate
  - Testing strategy.
  - Coverage of Game features.
- - As the tests are structured, we believe that organization is very important :)
+ - How tests were structured, we believe that organization is very important :)
  - We want to understand your testing approach. So it's important that you explain through comments how you found and developed the test scenarios.
  - The tests are easy to maintain, do the names of the variables make sense?
  - At the end of the test, you must send the postman project to the evaluator containing the scripts and the description of the covered scenarios.
