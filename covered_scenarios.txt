@@ -1,0 +1,154 @@
+[/auth]
+
+  Positive Scenarios:
+  
+    > Successful Auth
+
+
+  Negative Scenarios:
+  
+    > Missing Request Parameters:
+      >> Auth without app-id
+      >> Auth with empty
+      
+    > Miscellaneous Token Values:
+      >> Auth with invalid app-id
+
+
+  Destructive Scenarios:
+  
+      > Authenticating multiple times in a row
+
+
+
+
+
+[/heroes]
+
+  Positive Scenarios:
+
+    > Getting all heroes
+    > Creating a random hero
+
+    > Create a hero with all skills at maximum value
+    > Create a hero with maximum power skill value 
+    > Create a hero with maximum velocity skill value
+    > Create a hero with maximum combat skill value
+    > Create a hero with all skills immediately below maximum value
+
+    > Create a hero with all skills at minimum value
+    > Create a hero with minimum power skill value 
+    > Create a hero with minimum velocity skill value
+    > Create a hero with minimum combat skill value
+    > Create a hero with all skills immediately above minimum value
+
+
+  Negative Scenarios:
+  
+    > Miscellaneous Token Values:
+      >> Get Heroes without token
+      >> Get Heroes with invalid token
+      >> Get Heroes with expired token
+
+      >> Create a hero without token
+      >> Create a hero with invalid token
+      >> Create a hero with expired token
+      
+    > Missing body Fields:
+      >> Empty request body
+      >> Create a hero without name
+      >> Create a hero without all skills
+      >> Create a hero with empty skills
+      >> Create a hero without power skill
+      >> Create a hero without velocity skill
+      >> Create a hero without combat skill
+      
+    > Boundary Value Analysis / Invalid Partitions:
+      >> Create a hero with blank string name 
+      >> Create a hero with unexpected name type (number)
+      >> Create a hero with unexpected name type (boolean)
+      >> Create a hero with unexpected name type (array)
+      >> Create a hero with unexpected name type (null)
+      >> Create a hero with unexpected name type (special characters)
+
+      >> Create a hero with unexpected skills (string instead of object)
+      >> Create a hero with unexpected skills types (string)
+      >> Create a hero with unexpected skills types (null)
+ 
+      >> Create a hero with skills immediately below minimum value
+      >> Create a hero with skills below minimum value (negative skill values)
+      >> Create a hero with skills immediately above maximum value
+      >> Create a hero with skills above maximum value
+  
+    > Duplicates:
+      >> Duplicate Hero
+      >> Try to create Heroes with the same name
+      
+    > Unexpected Body Fields:
+      >> Try to create a hero with a specific id
+      
+    > Bad routes:
+      >> Try to access a /heroes child route
+      >> Try to get hero filtered by an id
+      >> Try to delete a hero by DELETE method
+      >> Try to update a hero by PUT method
+    
+    
+  Destructive Scenarios:
+  
+      > Try to get heroes multiple times in a row
+      > SQL Injection try with GET method
+      > SQL Injection try with POST method
+      
+  
+  
+  
+  
+[/heroes/battle]
+
+  Positive Scenarios:
+  
+    > Random battle between two existing heroes
+    > Creating a hero and finding another to beat
+    > Creating a hero and findind another to lose
+    > Creating a hero and finding another to tie
+
+  Negative Scenarios:
+  
+    > Miscellaneous Token Values:
+      >> Random battle without token
+      >> Random battle with invalid token
+      >> Random battle with expired token
+
+    > Missing Body Fields:
+      >> Empty request body
+      >> Battle without hero_id
+      >> Battle without machine_hero_id
+      
+    > Boundary Value Analysis / Invalid Partitions:
+      >> Battle between non-existent identifiers
+      >> Battle with an unexpected hero_id type (number)
+      >> Battle with an unexpected hero_id type (boolean)
+      >> Battle with an unexpected hero_id type (array)
+      //
+      >> Battle with an unexpected machine_hero_id type (number)
+      >> Battle with an unexpected machine_hero_id type (boolean)
+      >> Battle with an unexpected machine_hero_id type (array)
+      //
+      >> Battle with a hero with null skills
+      >> Battle with a hero with skills below minimum value
+      >> Battle with both opponents having skills below minimum value
+      >> Battle with both opponents having the same identifier (hero_id == machine_hero_id)
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
